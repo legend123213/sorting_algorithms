@@ -34,21 +34,21 @@ typedef struct listint_s
 } listint_t;
 
 /* Printing helper functions */
-void print_array(const int *arr, size_t size);
+void print_array(const int *arr, size_t si);
 void print_list(const listint_t *list);
 
 /* Sorting algoritms */
-void bubble_sort(int *arr, size_t size);
+void bubble_sort(int *arr, size_t si);
 void insertion_sort_list(listint_t **list);
-void selection_sort(int *arr, size_t size);
-void quick_sort(int *arr, size_t size);
-void shell_sort(int *arr, size_t size);
+void selection_sort(int *arr, size_t si);
+void quick_sort(int *arr, size_t si);
+void shell_sort(int *arr, size_t si);
 void cocktail_sort_list(listint_t **list);
-void counting_sort(int *arr, size_t size);
-void merge_sort(int *arr, size_t size);
-void heap_sort(int *arr, size_t size);
-void radix_sort(int *arr, size_t size);
-void bitonic_sort(int *arr, size_t size);
-void quick_sort_hoare(int *arr, size_t size);
+void counting_sort(int *arr, size_t si);
+void merge_sort(int *arr, size_t si);
+void heap_sort(int *arr, size_t si);
+void radix_sort(int *arr, size_t si);
+void bitonic_sort(int *arr, size_t si);
+void quick_sort_hoare(int *arr, size_t si);
 
 #endif /* SORT_H */
